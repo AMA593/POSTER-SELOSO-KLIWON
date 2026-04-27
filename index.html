@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Editor Pengajian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Engagement&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Editor Poster Pengajian</h2>
+        
+        <div class="editor-wrapper">
+            <div class="controls">
+                <div class="input-group">
+                <label>Dalam Rangka:</label>
+                <textarea id="inputEvent" placeholder="Ketik keterangan di sini..."></textarea>
+            </div>
+                
+                <div class="input-group">
+                    <label>Tanggal & Waktu:</label>
+                    <input type="text" id="inputDate" placeholder="Contoh: Minggu, 20 Mei 2026">
+                </div>
+
+                <button id="downloadBtn">Download Poster</button>
+            </div>
+
+            <div class="preview">
+                <canvas id="posterCanvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
