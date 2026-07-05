@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Engagement&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'FontPosterCustom';
+  src: url('https://seloso-kliwon.vercel.app/assets/Rushtard%20Brush.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-custom {
+    font-family: 'FontPosterCustom', sans-serif;
+  }
+}
